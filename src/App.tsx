@@ -5,6 +5,8 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "@/contexts/AuthContext";
 import ProtectedRoute from "@/components/ProtectedRoute";
+// Import correto para React
+import { SpeedInsights } from "@vercel/speed-insights/react"; // :contentReference[oaicite:1]{index=1}
 
 // Pages
 import Dashboard from "./pages/Dashboard";
@@ -70,6 +72,8 @@ const App = () => (
           </Routes>
         </AuthProvider>
       </BrowserRouter>
+      {/* Injeção do script de Speed Insights */}
+      <SpeedInsights />  {/* :contentReference[oaicite:2]{index=2} */}
     </TooltipProvider>
   </QueryClientProvider>
 );
