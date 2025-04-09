@@ -93,7 +93,6 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
       
       {/* Main content */}
       <main className="flex-1 container py-6 px-4">
-        {/* Para desktop: content com margem para acomodar a barra lateral */}
         <div className="md:ml-64">
           {children}
         </div>

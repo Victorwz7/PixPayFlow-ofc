@@ -83,7 +83,6 @@ const ProfileForm = () => {
     }
     
     setIsPasswordLoading(true);
-    // Simulação de atualização de senha já que não temos a função real no contexto
     setTimeout(() => {
       setIsPasswordLoading(false);
       setCurrentPassword('');
