@@ -1,73 +1,24 @@
-# Welcome to your Lovable project
+🏦 Banco Pix — Sistema de Transações Bancárias
+🔗 Deploy: teste-banco-pix.vercel.app
 
-## Project info
+📌 Descrição
+Projeto inspirado em aplicativos bancários, com funcionalidades de controle de saldo, cadastro de contatos e histórico de transações. O sistema simula uma experiência bancária moderna e segura, 100% integrado ao Supabase como backend.
 
-**URL**: https://lovable.dev/projects/3fb2909b-be26-48be-af8d-31f414ffa181
+⚙️ Tecnologias Utilizadas
+Vite — Ambiente de desenvolvimento rápido e moderno
 
-## How can I edit this code?
+React + TypeScript — Desenvolvimento robusto e tipado
 
-There are several ways of editing your application.
+Supabase — Backend como serviço (autenticação, banco de dados e API REST)
 
-**Use Lovable**
+Tailwind CSS — Estilização moderna e responsiva
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3fb2909b-be26-48be-af8d-31f414ffa181) and start prompting.
+✨ Funcionalidades
 
-Changes made via Lovable will be committed automatically to this repo.
+Realização de transferências entre usuários
 
-**Use your preferred IDE**
+Histórico de transações com ordenação
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Feedback visual (sucesso e erros)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/3fb2909b-be26-48be-af8d-31f414ffa181) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Layout responsivo adaptado para desktop e mobile
